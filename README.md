@@ -1,2 +1,3 @@
 # bioinformatics
-various scripts to deal with various parts of phylogenetic tree building processes, most are specific to the syntax and deflines that my lab uses
+code for building phylogenetic trees
+and dealing with files that are outputs and inputs to various genomic analysis workflows
