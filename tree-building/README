@@ -1,7 +1,7 @@
 for building concatenated protein trees
 specific to our lab's workflow
-some of the code for running blast searches in the earlier versions (round_1 function) is not mine, will credit once I have a chance to ask who wrote it
 this started out with me writing code so that we wouldn't have to manually run blast searches and copy sequences for every single genome file
+code for running blastx searches loosely based off code that Cara Magnabosco wrote @ this point I've modified the structure pretty thoroughly tho
 extractCopyProteinSeq at this point takes any amount of genome files and pulls out the sequences for specified ribosomal proteins (based on a reference database)
 then copies them to existing files containing all the sequences for a given ribosomal protein from every species you've pulled sequences so far
 these are the first steps for the workflow
