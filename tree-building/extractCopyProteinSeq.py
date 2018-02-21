@@ -11,8 +11,8 @@ import os
 # C. reference database directory with the proteins sequences to be blasted against, file names should have _# at end, eg 'Clostridia_Ribo_1', in same order as in text file
 # D. directory containing existing files for each protein with sequences for previously blasted sequences eg Analysis0_L23.fas
 
-#in terminal run command $python extractCopyProteinSeq.py -db database_directory_name -pl protein_list_text_file -of existing_gene_sequences_directory
-# -db refers to C, -pl refers to B, -of refers to D
+#in terminal run command $python extractCopyProteinSeq.py -db database_directory_name -pl protein_list_text_file -od existing_gene_sequences_directory
+# -db refers to C, -pl refers to B, -od refers to D
 #i recommend using nohup b/c this takes a while to run
 #will result in: directory called cwd_BLAST with blast results for each protein and each result being appended on to the correct protein file in the existing gene sequences directory
 #you will still need to manually check for any sequences that are significantly longer than the rest
