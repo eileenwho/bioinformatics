@@ -1,5 +1,6 @@
 #TODO currently untested
-#TODO where should i put my imports anyway
+#TODO yup this doesn't right now, will debug when i have time
+#TODO where should i put my imports anyway?
 import glob
 import os
 
